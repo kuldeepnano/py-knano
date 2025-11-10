@@ -1,0 +1,64 @@
+Git (Version control system)
+change -> add -> commit
+
+<br> is new line character in README.md file (from HTML)
+
+Clone
+    git clone <-link->
+Status
+    git status
+
+cd : change directory
+cd .. : going to parent directory
+ls : lising items in working directory
+ls -a : lising all items in working directory
+
+untracted : git doesn't know the file
+modified : git knows the file has been changed
+staged : git knows file is ready to commit
+unmodified : git knows the file
+
+Add
+    git add <-file->
+Commit 
+    git commit -m "message"
+To check all the commits
+    git log
+
+Initialize git in local repo
+    git init 
+Adding the github repo link to local repo
+    git remote add origin <-link->
+To check the remote origin
+    git remote -v 
+To check the branch (it will show all the branches and current branch highlight)
+    git branch
+To rename the branch to "main"
+    git branch -M main
+To go to other branch
+    git checkout <-branch_name->
+To create new branch
+    git checkout -b <-branch_name->
+To delete a branch
+    git branch -d <-branch_name->
+
+Merging current branch to other branch via git
+    git diff <-branch_name->    To check the difference
+    git merge <-branch_name_>   To merge to another branch
+Merging via Pull request on Github is also possible and more preferable. (It is also a commit.)
+Pulling the latest changes and commits from remote to local.
+    git pull origin main
+
+Undoing changes
+Case 1: staged uncommited changes
+    git reset <-file_name->     For individual files
+    git reset                   For all files
+Case 2: commited changes (for 1 commit)
+    git reset HEAD~1
+
+Case 3: commited changes (for multiple commit)
+First find out the hash of the commit with command : git log
+Then undo to specific commit with its hash
+    git reset <-commit_hash->           To undo in just git
+    git reset --hard <-commit_hash->    To undo in editor as well
+Fork: get a copy of other's repo to own account (GitHub option)
