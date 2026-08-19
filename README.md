@@ -23,21 +23,21 @@ Progams:-
 
 ## Creating new files. Use following files for next use.
 
-requirements.txt file contains required python packages
-knano_measure.ipynb (for general use) **ongoing**
-knano_plotting.ipynb (for plotting data) **ongoing**
-knano_lakeshore.ipynb (for reference of lakeshore 370/372 functions) **ready for 14T (LAN) and Fincryo (GPIB) connections; Fincryo (API) will be added soon**
-knano_ami430.ipynb (for reference of AMI 430 funcitons) **old**
-knano_bilt.ipynb (for reference of BILT Voltage source) **old**
-knano_NIDAQ_noise.ipynb (for reference of NIDAQ for noise measurement) **ongoing**
-knano_NIDAQ.ipynb (for reference of NIDAQ for general IV and AWG) **old**
+* requirements.txt file contains required python packages
+* knano_measure.ipynb (for general use) **ongoing**
+* knano_plotting.ipynb (for plotting data) **ongoing**
+* knano_lakeshore.ipynb (for reference of lakeshore 370/372 functions) **ready for 14T (LAN) and Fincryo (GPIB) connections; Fincryo (API) will be added soon**
+* knano_ami430.ipynb (for reference of AMI 430 funcitons) **old**
+* knano_bilt.ipynb (for reference of BILT Voltage source) **old**
+* knano_NIDAQ_noise.ipynb (for reference of NIDAQ for noise measurement) **ongoing**
+* knano_NIDAQ.ipynb (for reference of NIDAQ for general IV and AWG) **old**
 
-knano_14T.ipynb (for use at 14T cryostat) **old**
-knano_Fincryo.ipynb (for use at Fincryo) **old**
-knano_Prototype.ipynb (for use at Prototype) **will be adding soon**
-knano_Optonano.ipynb (for use at Opto-Nano) **will be adding soon**
-knano_NANOY.ipynb (for use at NANO-Y) **will be adding soon**
-knano_DeMag.ipynb (for use at DeMag) **will be adding soon**
+* knano_14T.ipynb (for use at 14T cryostat) **old**
+* knano_Fincryo.ipynb (for use at Fincryo) **old**
+* knano_Prototype.ipynb (for use at Prototype) **will be adding soon**
+* knano_Optonano.ipynb (for use at Opto-Nano) **will be adding soon**
+* knano_NANOY.ipynb (for use at NANO-Y) **will be adding soon**
+* knano_DeMag.ipynb (for use at DeMag) **will be adding soon**
 
 ## New Updates
 
