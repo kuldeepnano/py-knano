@@ -1,0 +1,36 @@
+# --- Instrument Control & Hardware ---
+pyvisa
+pyvisa-py
+pyserial
+zhinst
+nidaqmx
+qcodes
+PyMeasure
+lakeshore
+srsinst.sr860[full]
+requests
+
+# --- Numerical Calculations & Fitting ---
+numpy
+scipy
+sympy
+lmfit
+numba
+engineering-notation
+
+# --- Data Analysis & Storage ---
+pandas
+polars
+h5py
+
+# --- GUI & Real-Time Plotting ---
+matplotlib
+pyqtgraph
+PySide6
+PyQt6
+seaborn
+
+# --- Python IDEs ---
+spyder
+jupyterlab
+notebook
